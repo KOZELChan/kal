@@ -555,8 +555,6 @@ AGAR TERHINDAR DARI SPAM IP
 						pass
 					else:
 						pwv.append('bandung123')
-						pwv.append('sindangkerta')
-						pwv.append('sindangkerta123')
 						pwv.append('cimahi')
 						pwv.append('cimahi123')
 						pwv.append('soreang')
@@ -573,8 +571,6 @@ AGAR TERHINDAR DARI SPAM IP
 						pwv.append(nmf)
 					else:
 						pwv.append('bandung123')
-						pwv.append('sindangkerta')
-						pwv.append('sindangkerta123')
 						pwv.append('cimahi')
 						pwv.append('cimahi123')
 						pwv.append('soreang')
