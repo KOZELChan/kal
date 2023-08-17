@@ -554,6 +554,7 @@ AGAR TERHINDAR DARI SPAM IP
 					if len(frs)<3:
 						pass
 					else:
+						pwv.append(nmf)
 						pwv.append(frs'cantik')
 						pwv.append('Persib Bandung')
 						pwv.append('bagong')
@@ -568,6 +569,7 @@ AGAR TERHINDAR DARI SPAM IP
 					if len(frs)<3:
 						pwv.append(nmf)
 					else:
+						pwv.append(nmf)
 						pwv.append(frs'cantik')
 						pwv.append('Persib Bandung')
 						pwv.append('bagong')
