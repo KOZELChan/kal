@@ -554,30 +554,26 @@ AGAR TERHINDAR DARI SPAM IP
 					if len(frs)<3:
 						pass
 					else:
-						pwv.append(nmf)
-						pwv.append(frs+'cantik')
-						pwv.append('Persib Bandung')
-						pwv.append('bagong')
-						pwv.append('anjing')
-						pwv.append('bagong123')
-						pwv.append('anjing123')
 						pwv.append('persib123')
-						pwv.append('persib1933')
+						pwv.append('bandung1933')
+						pwv.append('viking123')
+						pwv.append('bobotoh persib')
+						pwv.append('bandung123')
+						pwv.append('bandung1234')
+						pwv.append('bobotohpersib')
 						pwv.append('persib bandung')
 						pwv.append('persibbandung')
 				else:
 					if len(frs)<3:
 						pwv.append(nmf)
 					else:
-						pwv.append(nmf)
-						pwv.append(frs+'cantik')
-						pwv.append('Persib Bandung')
-						pwv.append('bagong')
-						pwv.append('anjing')
-						pwv.append('bagong123')
-						pwv.append('anjing123')
 						pwv.append('persib123')
-						pwv.append('persib1933')
+						pwv.append('bandung1933')
+						pwv.append('viking123')
+						pwv.append('bobotoh persib')
+						pwv.append('bandung123')
+						pwv.append('bandung1234')
+						pwv.append('bobotohpersib')
 						pwv.append('persib bandung')
 						pwv.append('persibbandung')
 				if 'ya' in pwt:
