@@ -577,7 +577,7 @@ AGAR TERHINDAR DARI SPAM IP
 						pwv.append('banjarbaru')
 						pwv.append('banjarbaru123')
 						pwv.append('banjarmasin')
-            pwv.append('banjarmasin123')
+						pwv.append('banjarmasin123')
 				if 'ya' in pwt:
 					for xpwn in pwn:
 						pwv.append(xpwn)
