@@ -43,7 +43,7 @@ for agenku in range(10000):
 	
 for t in range(10000):
 	a='Mozilla/5.0 (Linux; Android;'
-	b=random.choice(['4.4.4])
+	b=random.choice(['4.4.4'])
 	c='GT-I8160 Build/KTU84Q)'
 	d='AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/33.0.0.0'
 	e=random.randrange(83,103)
