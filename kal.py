@@ -548,9 +548,10 @@ AGAR TERHINDAR DARI SPAM IP
 					if len(frs)<3:
 						pass
 					else:
-						pwv.append(nmf)
-						pwv.append(frs+' sayang')
+						pwv.append('kota bandung')
+						pwv.append('kotabandung')
 						pwv.append('persib123')
+						pwv.append('persib1933')
 						pwv.append('bandung123')
 						pwv.append('bandung1933')
 						pwv.append('persib bandung')
@@ -559,9 +560,10 @@ AGAR TERHINDAR DARI SPAM IP
 					if len(frs)<3:
 						pwv.append(nmf)
 					else:
-						pwv.append(nmf)
-						pwv.append(frs+' sayang')
+						pwv.append('kota bandung')
+						pwv.append('kotabandung')
 						pwv.append('persib123')
+						pwv.append('persib1933')
 						pwv.append('bandung123')
 						pwv.append('bandung1933')
 						pwv.append('persib bandung')
