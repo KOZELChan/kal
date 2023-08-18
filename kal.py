@@ -547,17 +547,8 @@ AGAR TERHINDAR DARI SPAM IP
 					if len(frs)<3:
 						pass
 					else:
-						pwv.append('bandungbarat')
-						pwv.append('cimahi')
-						pwv.append('cimahi123')
-						pwv.append('sunda123')
-						pwv.append('getihsunda')
-						pwv.append('hencet123')
-						pwv.append('cililin')
-						pwv.append('kontol123')
-						pwv.append('memek123')
-						pwv.append('anjing123')
 						pwv.append('persib123')
+						pwv.append('desember')
 						pwv.append('bandung123')
 						pwv.append('bandung1933')
 						pwv.append('persib bandung')
@@ -566,17 +557,8 @@ AGAR TERHINDAR DARI SPAM IP
 					if len(frs)<3:
 						pwv.append(nmf)
 					else:
-						pwv.append('bandungbarat')
-						pwv.append('cimahi')
-						pwv.append('cimahi123')
-						pwv.append('sunda123')
-						pwv.append('getihsunda')
-						pwv.append('hencet123')
-						pwv.append('cililin')
-						pwv.append('kontol123')
-						pwv.append('memek123')
-						pwv.append('anjing123')
 						pwv.append('persib123')
+						pwv.append('desember')
 						pwv.append('bandung123')
 						pwv.append('bandung1933')
 						pwv.append('persib bandung')
