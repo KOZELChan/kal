@@ -563,7 +563,7 @@ AGAR TERHINDAR DARI SPAM IP
 						pwv.append('indonesia')
 						pwv.append('sayang')
 						pwv.append('mamah123')
-						pwv.append('bagong'
+						pwv.append('bagong')
 						pwv.append('kata sandi')
 						pwv.append('kamu nanya')
 						pwv.append('persib123')
@@ -592,7 +592,7 @@ AGAR TERHINDAR DARI SPAM IP
 						pwv.append('indonesia')
 						pwv.append('sayang')
 						pwv.append('mamah123')
-						pwv.append('bagong'
+						pwv.append('bagong')
 						pwv.append('kata sandi')
 						pwv.append('kamu nanya')
 						pwv.append('persib123')
