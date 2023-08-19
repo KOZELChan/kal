@@ -55,28 +55,22 @@ for t in range(10000):
 	uakuh=f'{a} {b}; {c} {d}{e}.{f}.{g}.{h} {i}'
 	ugen.append(uakuh)
 	
-	a='Mozilla/5.0 (iPhone; CPU'
-	b=random.choice(['8','8.1.0','9','10','11'])
-	c='SAMSUNG-SM-N910G Build/LRX22C)'
-	d='AppleWebKit/537.1 (KHTML, like Gecko)  Chrome/50.0.2226.339'
-	e=random.randrange(83,103)
-	f='0'
-	g=random.randrange(4200,4900)
-	h=random.randrange(40,150)
-	i='Mobile Safari/537.7'
-	uakuh=f'{a}{b}.{c} {d}{e}{f}{g}.{h}.{i}'
+	a='Mozilla/5.0 (iPhone; CPU11'
+	b='SAMSUNG-SM-N910G Build/LRX22C)'
+	c='AppleWebKit/537.1 (KHTML, like Gecko)  Chrome/50.0.2226.339'
+	d='8304386'
+	e='120'
+	f='Mobile Safari/537.7'
+	uakuh=f'{a} {b} {c} {d}.{e}.{f}'
 	ugen.append(uakuh)
 	
-	a='Mozilla/5.0 (Linux; Android'
-	b=random.choice(['8','9','10','11','12'])
-	c='SM-N8000 Build/JZO54K)'
-	d='AppleWebKit/534.5 (KHTML, like Gecko)  Chrome/47.0.2892.259'
-	e=random.randrange(83,103)
-	f='0'
-	g=random.randrange(4200,4900)
-	h=random.randrange(40,150)
-	i='Mobile Safari/602.4'
-	uakuh=f'{a}{b}.{c} {d}{e}{f}{g}.{h}.{i}'
+	a='Mozilla/5.0 (Linux; Android 9;'
+	b='V2163A Build/RP1A)'
+	c='AppleWebKit/537.36 (KHTML, like Gecko)  Chrome/'
+	d='8404880'
+	e='42'
+	f='Mobile Safari/537.36'
+	uakuh=f'{a} {b} {c} {d}.{e}.{f}'
 	ugen.append(uakuh)
 	
 	a='Mozilla/5.0 (Linux; U; Android'
