@@ -29,20 +29,78 @@ proxsi=open('socksku.txt','r').read().splitlines()
 
 ###----------[ USER AGENT ]----------###
 for agenku in range(10000):
-	a='Mozilla/5.0 (Linux; Android 13;'
-	b='SAMSUNG SM-59018 Build/PPR1.180610.011; wv)'
-	c='AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/112.0.2986.58'
-	d='Mobile Safari/537.36'
-	uakuh=f'{a} {b} {c} {d}'
-	usragent.append(uakuh)
-	
-for t in range(10000):	
-	a='Mozilla/5.0 (Linux; Android 12;'
-	b='SAMSUNG SM-J400M Build/PPR1.180610.011; wv)'
-	c='AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/103.0.4415.192'
-	d='Mobile Safari/537.36'
-	uakuh=f'{a} {b} {c} {d}'
+	a='Mozilla/5.0 (Linux; Android'
+	b=random.choice(['10','11','12'])
+	c='Redmi K30 Pro Zoom Edition Build/SKQ1.211006.001; wv)'
+	d='AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/115.0.5790.163'
+	e=random.randrange(83,103)
+	f='0'
+	g=random.randrange(4200,4900)
+	h=random.randrange(40,150)
+	i='Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/426.0.0.26.50;]'
+	uakuh=f'{a}{b}.{c} {d}{e}{f}{g}.{h}.{i}'
 	ugen.append(uakuh)
+	
+for t in range(10000):
+	a='Mozilla/5.0 (Linux; Android'
+	b=random.choice(['6.0.1','7.1.1','8.1.0'])
+	c='en-gb; Redmi Note 11 Build/TKQ1.221114.001)'
+	d='AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/100.0.4896.127'
+	e=random.randrange(83,103)
+	f='0'
+	g=random.randrange(4200,4900)
+	h=random.randrange(40,150)
+	i='Mobile Safari/537.36 XiaoMi/MiuiBrowser/13.25.2.2-gn'
+	uakuh=f'{a} {b}; {c} {d}{e}.{f}.{g}.{h} {i}'
+	ugen.append(uakuh)
+	
+	a='Mozilla/5.0 (iPhone; CPU'
+	b=random.choice(['8','8.1.0','9','10','11'])
+	c='SAMSUNG-SM-N910G Build/LRX22C)'
+	d='AppleWebKit/537.1 (KHTML, like Gecko)  Chrome/50.0.2226.339'
+	e=random.randrange(83,103)
+	f='0'
+	g=random.randrange(4200,4900)
+	h=random.randrange(40,150)
+	i='Mobile Safari/537.7'
+	uakuh=f'{a}{b}.{c} {d}{e}{f}{g}.{h}.{i}'
+	ugen.append(uakuh)
+	
+	a='Mozilla/5.0 (Linux; Android'
+	b=random.choice(['8','9','10','11','12'])
+	c='SM-N8000 Build/JZO54K)'
+	d='AppleWebKit/534.5 (KHTML, like Gecko)  Chrome/47.0.2892.259'
+	e=random.randrange(83,103)
+	f='0'
+	g=random.randrange(4200,4900)
+	h=random.randrange(40,150)
+	i='Mobile Safari/602.4'
+	uakuh=f'{a}{b}.{c} {d}{e}{f}{g}.{h}.{i}'
+	ugen.append(uakuh)
+	
+	a='Mozilla/5.0 (Linux; U; Android'
+	b=random.choice(['8','9','10','11','12'])
+	c='MOTOROLA MOTOG Build/KVT49L)'
+	d='AppleWebKit/601.8 (KHTML, like Gecko)  Chrome/47.0.2725.317'
+	e=random.randrange(83,103)
+	f='0'
+	g=random.randrange(4200,4900)
+	h=random.randrange(40,150)
+	i='Mobile Safari/601.4'
+	uakuh=f'{a}{b}.{c} {d}{e}{f}{g}.{h}.{i}'
+	ugen.append(uakuh)
+	
+	a='Mozilla/5.0 (Linux; Android'
+	b=random.choice(['8','9','10','11','12'])
+	c='LG-LU6500 Build/IMM76L)'
+	d='AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.107'
+	e=random.randrange(83,103)
+	f='0'
+	g=random.randrange(4200,4900)
+	h=random.randrange(40,150)
+	i='Mobile Safari/537.36 OPR/29.0.1809.93516'
+	uakuh=f'{a}{b}.{c} {d}{e}{f}{g}.{h}.{i}'
+	usragent.append(uakuh)
 	
 	###---------------[USER AGENT 2]---------------###
 P = '\x1b[1;97m'
