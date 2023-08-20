@@ -47,34 +47,17 @@ for t in range(10000):
 	uakuh=f'{a} {b} {c} {d}{e}'
 	ugen.append(uakuh)
 	
-	a='Mozilla/5.0 (Linux; Android 11;'
-	b='RMX3231 Build/RP1A.201005.001; wv)'
-	c='AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/113.0.5672.131'
+	a='Mozilla/5.0 (Linux; Android 12;'
+	b='SAMSUNG SM-J400M Build/PPR1.180610.011; wv)'
+	c='AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/103.0.4415.192'
 	d='Mobile Safari/537.36'
-	e='[FBAN/EMA;FBLC/id_ID;FBAV/356.0.0.7.89;]'
-	uakuh=f'{a} {b} {c} {d}{e}'
+	uakuh=f'{a} {b} {c} {d}'
 	ugen.append(uakuh)
 	
-	a='Mozilla/5.0 (Linux; Android 6.0.1;'
-	b='OPPO A57 Build/MMB29M; wv)'
-	c='AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/106.0.5249.126'
+	a='Mozilla/5.0 (Linux; Android 13;'
+	b='SAMSUNG SM-59018 Build/PPR1.180610.011; wv)'
+	c='AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/112.0.2986.58'
 	d='Mobile Safari/537.36'
-	e='[FBAN/EMA;FBLC/en_US;FBAV/343.0.0.13.79;]'
-	uakuh=f'{a} {b} {c} {d}{e}'
-	ugen.append(uakuh)
-	
-	a='Mozilla/5.0 (Linux; Android 9;'
-	b='ASUS_X00TD Build/PKQ1; wv)'
-	c='AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/105.0.5195.77'
-	d='Mobile Safari/537.36'
-	e='[FBAN/EMA;FBLC/sr_RS;FBAV/318.0.0.16.105;]'
-	uakuh=f'{a} {b} {c} {d}{e}'
-	ugen.append(uakuh)
-	
-	a='Mozilla/5.0 (iPhone; CPU iPhone OS 17_0'
-	b='like Mac OS X)'
-	c='AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/21A5248v'
-	d='[FBAN/FBIOS;FBDV/iPhone11,8;FBMD/iPhone;FBSN/iOS;FBSV/17.0;FBSS/2;FBID/phone;FBLC/en_US;FBOP/5]'
 	uakuh=f'{a} {b} {c} {d}'
 	usragent.append(uakuh)
 	
@@ -533,14 +516,6 @@ AGAR TERHINDAR DARI SPAM IP
 						pwv.append(frs+'1234')
 						pwv.append(frs+'12345')
 						pwv.append(frs+'123456')
-						pwv.append('bandung123')
-						pwv.append('bandung1234')
-						pwv.append('bandung12345')
-						pwv.append('bandung123456')
-						pwv.append('persib123')
-						pwv.append('persib1234')
-						pwv.append('persib12345')
-						pwv.append('persib123456')
 						pwv.append('persib1933')
 						pwv.append('bandung1933')
 						pwv.append('persib bandung')
@@ -554,14 +529,6 @@ AGAR TERHINDAR DARI SPAM IP
 						pwv.append(frs+'1234')
 						pwv.append(frs+'12345')
 						pwv.append(frs+'123456')
-						pwv.append('bandung123')
-						pwv.append('bandung1234')
-						pwv.append('bandung12345')
-						pwv.append('bandung123456')
-						pwv.append('persib123')
-						pwv.append('persib1234')
-						pwv.append('persib12345')
-						pwv.append('persib123456')
 						pwv.append('persib1933')
 						pwv.append('bandung1933')
 						pwv.append('persib bandung')
