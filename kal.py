@@ -42,7 +42,7 @@ for t in range(10000):
 	a='Mozilla/5.0 (Linux; Android 8.1.0;'
 	b='vivo 1814 Build/O11019; wv)'
 	c='AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/109.0.5414.85'
-	d='i='Mobile Safari/537.36'
+	d='Mobile Safari/537.36'
 	e='[FBAN/EMA;FBLC/cx_PH;FBAV/339.0.0.10.100;]'
 	uakuh=f'{a} {b} {c} {d}{e}'
 	ugen.append(uakuh)
