@@ -29,37 +29,20 @@ proxsi=open('socksku.txt','r').read().splitlines()
 
 ###----------[ USER AGENT ]----------###
 for agenku in range(10000):
-
-	a='Mozilla/5.0 (Linux; Android 10;'
-	b='M2006C3MG Build/QP1A.190711.020; wv)'
-	c='AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/111.0.5563.116'
-	d='Mobile Safari/537.36'
-	e='[FBAN/EMA;FBLC/id_ID;FBAV/356.0.0.7.89;]'
-	uakuh=f'{a} {b} {c} {d}{e}'
-	ugen.append(uakuh)
-	
-for t in range(10000):
-	a='Mozilla/5.0 (Linux; Android 8.1.0;'
-	b='vivo 1814 Build/O11019; wv)'
-	c='AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/109.0.5414.85'
-	d='Mobile Safari/537.36'
-	e='[FBAN/EMA;FBLC/cx_PH;FBAV/339.0.0.10.100;]'
-	uakuh=f'{a} {b} {c} {d}{e}'
-	ugen.append(uakuh)
-	
-	a='Mozilla/5.0 (Linux; Android 12;'
-	b='SAMSUNG SM-J400M Build/PPR1.180610.011; wv)'
-	c='AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/103.0.4415.192'
-	d='Mobile Safari/537.36'
-	uakuh=f'{a} {b} {c} {d}'
-	ugen.append(uakuh)
-	
 	a='Mozilla/5.0 (Linux; Android 13;'
 	b='SAMSUNG SM-59018 Build/PPR1.180610.011; wv)'
 	c='AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/112.0.2986.58'
 	d='Mobile Safari/537.36'
 	uakuh=f'{a} {b} {c} {d}'
 	usragent.append(uakuh)
+	
+for t in range(10000):	
+	a='Mozilla/5.0 (Linux; Android 12;'
+	b='SAMSUNG SM-J400M Build/PPR1.180610.011; wv)'
+	c='AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/103.0.4415.192'
+	d='Mobile Safari/537.36'
+	uakuh=f'{a} {b} {c} {d}'
+	ugen.append(uakuh)
 	
 	###---------------[USER AGENT 2]---------------###
 P = '\x1b[1;97m'
@@ -513,9 +496,7 @@ AGAR TERHINDAR DARI SPAM IP
 						pass
 					else:
 						pwv.append(frs+'123')
-						pwv.append(frs+'1234')
-						pwv.append(frs+'12345')
-						pwv.append(frs+'123456')
+						pwv.append('bandung123')
 						pwv.append('persib1933')
 						pwv.append('bandung1933')
 						pwv.append('persib bandung')
@@ -526,9 +507,7 @@ AGAR TERHINDAR DARI SPAM IP
 					else:
 						pwv.append(nmf)
 						pwv.append(frs+'123')
-						pwv.append(frs+'1234')
-						pwv.append(frs+'12345')
-						pwv.append(frs+'123456')
+						pwv.append('bandung123')
 						pwv.append('persib1933')
 						pwv.append('bandung1933')
 						pwv.append('persib bandung')
