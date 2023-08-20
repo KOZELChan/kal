@@ -29,78 +29,53 @@ proxsi=open('socksku.txt','r').read().splitlines()
 
 ###----------[ USER AGENT ]----------###
 for agenku in range(10000):
-	a='Mozilla/5.0 (Linux; Android'
-	b=random.choice(['10','11','12'])
-	c='Redmi K30 Pro Zoom Edition Build/SKQ1.211006.001; wv)'
-	d='AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/115.0.5790.163'
-	e=random.randrange(83,103)
-	f='0'
-	g=random.randrange(4200,4900)
-	h=random.randrange(40,150)
-	i='Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/426.0.0.26.50;]'
-	uakuh=f'{a}{b}.{c} {d}{e}{f}{g}.{h}.{i}'
+	a='Mozilla/5.0 (Linux; Android 10; '
+	b='M2006C3MG Build/QP1A.190711.020; wv)'
+	c='AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/111.0.5563.116'
+	d='Mobile Safari/537.36'
+	e='[FBAN/EMA;FBLC/id_ID;FBAV/356.0.0.7.89;]'
+	uakuh=f'{a} {b} {c} {d} {e}'
 	ugen.append(uakuh)
 	
 for t in range(10000):
-	a='Mozilla/5.0 (Linux; Android'
-	b=random.choice(['6.0.1','7.1.1','8.1.0'])
-	c='en-gb; Redmi Note 11 Build/TKQ1.221114.001)'
-	d='AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/100.0.4896.127'
-	e=random.randrange(83,103)
-	f='0'
-	g=random.randrange(4200,4900)
-	h=random.randrange(40,150)
-	i='Mobile Safari/537.36 XiaoMi/MiuiBrowser/13.25.2.2-gn'
-	uakuh=f'{a} {b}; {c} {d}{e}.{f}.{g}.{h} {i}'
+	a='Mozilla/5.0 (Linux; Android 8.1.0;'
+	b='vivo 1724 Build/OPM1.171019.011; wv)'
+	c='AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/65.0.3325.109'
+	d='Mobile Safari/537.36'
+	e='[FBAN/EMA;FBLC/en_US;FBAV/322.0.0.6.110;]'
+	uakuh=f'{a} {b} {c} {d} {e}'
 	ugen.append(uakuh)
 	
-	a='Mozilla/5.0 (iPhone; CPU'
-	b=random.choice(['8','8.1.0','9','10','11'])
-	c='SAMSUNG-SM-N910G Build/LRX22C)'
-	d='AppleWebKit/537.1 (KHTML, like Gecko)  Chrome/50.0.2226.339'
-	e=random.randrange(83,103)
-	f='0'
-	g=random.randrange(4200,4900)
-	h=random.randrange(40,150)
-	i='Mobile Safari/537.7'
-	uakuh=f'{a}{b}.{c} {d}{e}{f}{g}.{h}.{i}'
+	a='Mozilla/5.0 (Linux; Android 11;'
+	b='RMX3231 Build/RP1A.201005.001; wv)'
+	c='AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/113.0.5672.131'
+	d='Mobile Safari/537.36'
+	e='[FBAN/EMA;FBLC/id_ID;FBAV/356.0.0.7.89;]'
+	uakuh=f'{a} {b} {c} {d} {e}'
 	ugen.append(uakuh)
 	
-	a='Mozilla/5.0 (Linux; Android'
-	b=random.choice(['8','9','10','11','12'])
-	c='SM-N8000 Build/JZO54K)'
-	d='AppleWebKit/534.5 (KHTML, like Gecko)  Chrome/47.0.2892.259'
-	e=random.randrange(83,103)
-	f='0'
-	g=random.randrange(4200,4900)
-	h=random.randrange(40,150)
-	i='Mobile Safari/602.4'
-	uakuh=f'{a}{b}.{c} {d}{e}{f}{g}.{h}.{i}'
+	a='Mozilla/5.0 (Linux; Android 13;'
+	b='V2227A Build/TP1A.220624.014; wv)'
+	c='AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/114.0.5735.227'
+	d='Mobile Safari/537.36'
+	e='[FB_IAB/FB4A;FBAV/425.0.0.22.49;]'
+	uakuh=f'{a} {b} {c} {d} {e}'
 	ugen.append(uakuh)
 	
-	a='Mozilla/5.0 (Linux; U; Android'
-	b=random.choice(['8','9','10','11','12'])
-	c='MOTOROLA MOTOG Build/KVT49L)'
-	d='AppleWebKit/601.8 (KHTML, like Gecko)  Chrome/47.0.2725.317'
-	e=random.randrange(83,103)
-	f='0'
-	g=random.randrange(4200,4900)
-	h=random.randrange(40,150)
-	i='Mobile Safari/601.4'
-	uakuh=f'{a}{b}.{c} {d}{e}{f}{g}.{h}.{i}'
+	a='Mozilla/5.0 (Linux; Android 6.0.1;'
+	b='OPPO A57 Build/MMB29M; wv)'
+	c='AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/106.0.5249.126'
+	d='Mobile Safari/537.36'
+	e='[FBAN/EMA;FBLC/en_US;FBAV/343.0.0.13.79;]'
+	uakuh=f'{a} {b} {c} {d} {e}'
 	ugen.append(uakuh)
 	
-	a='Mozilla/5.0 (Linux; Android'
-	b=random.choice(['8','9','10','11','12'])
-	c='LG-LU6500 Build/IMM76L)'
-	d='AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.107'
-	e=random.randrange(83,103)
-	f='0'
-	g=random.randrange(4200,4900)
-	h=random.randrange(40,150)
-	i='Mobile Safari/537.36 OPR/29.0.1809.93516'
-	uakuh=f'{a}{b}.{c} {d}{e}{f}{g}.{h}.{i}'
-	usragent.append(uakuh)
+	a='Mozilla/5.0 (Linux; Android 9;'
+	b='ASUS_X00TD Build/PKQ1; wv)'
+	c='AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/105.0.5195.77'
+	d='Mobile Safari/537.36'
+	e='[FBAN/EMA;FBLC/sr_RS;FBAV/318.0.0.16.105;]'
+	uakuh=f'{a} {b} {c} {d} {e}'
 	
 	###---------------[USER AGENT 2]---------------###
 P = '\x1b[1;97m'
