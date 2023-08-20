@@ -29,6 +29,7 @@ proxsi=open('socksku.txt','r').read().splitlines()
 
 ###----------[ USER AGENT ]----------###
 for agenku in range(10000):
+	
 	a='Mozilla/5.0 (Linux; Android 13;'
 	b='V2227A Build/TP1A.220624.014; wv)'
 	c='AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/114.0.5735.227'
